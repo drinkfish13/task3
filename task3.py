@@ -20,8 +20,6 @@ for i in range(len(queries)):
         n3+=1
     else:
         other+=1
-print(n1,n2,n3,other)
-b = n2*100/(n1+n2+n3+other)
 print('поисковых запросов из одного слова ',"%.0f" % (n1*100/(n1+n2+n3+other)),'%')
 print('поисковых запросов из двух слов ',"%.0f" % (n2*100/(n1+n2+n3+other)),'%')
 print('поисковых запросов из трех слов ',"%.0f" % (n3*100/(n1+n2+n3+other)),'%')
